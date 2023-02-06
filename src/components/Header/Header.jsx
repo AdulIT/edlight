@@ -1,10 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../UI/Navbar/Navbar'
+import { useLocation } from 'react-router-dom'
+
 
 const Header = () => {
+
+    const location = useLocation()
+    
     return (
-        <header className="header">
+        <header className={(location.pathname === '/infomatrics') ? 'header-white' : 'header'}>
             <div className="container">
                 <div className="menu-overlay">
                     <Link to="/main">
