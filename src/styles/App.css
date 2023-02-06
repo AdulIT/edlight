@@ -173,7 +173,7 @@ a {
 	background-repeat: no-repeat;
 	border: none;
 	background-color: transparent;
-	background-image: url('../assets/img/start-video-button.png');
+	background-image: url('../../public/assets/img/start-video-button.png');
 	transition: transform 0.25s ease-in-out;
 	z-index: 1000;
 }
@@ -777,7 +777,7 @@ a {
 }
 
 .services-list-item--closed .Arduino {
-	background-image: url('../assets/img/Arduino-bg.png') !important;
+	background-image: url('../../public/assets/img/Arduino-bg.png') !important;
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed !important;
@@ -825,7 +825,7 @@ a {
 }
 
 .VR {
-	background-image: url('../assets/img//Vr-bg.png');
+	background-image: url('../../public/assets/img/Vr-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed !important;
@@ -834,7 +834,7 @@ a {
 }
 
 .Arduino {
-	background-image: url('../assets/img/Arduino-bg.png') !important;
+	background-image: url('../../public/assets/img/Arduino-bg.png') !important;
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed !important;
@@ -843,7 +843,7 @@ a {
 }
 
 .Chatbot {
-	background-image: url('../assets/img/chatbot-bg.png');
+	background-image: url('../../public/assets/img/chatbot-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -852,7 +852,7 @@ a {
 }
 
 .DataScience {
-	background-image: url('../assets/img/Datascience-bg.png');
+	background-image: url('../../public/assets/img/Datascience-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -863,7 +863,7 @@ a {
 }
 
 .MobileDev {
-	background-image: url('../assets/img/Mobile-bg.png');
+	background-image: url('../../public/assets/img/Mobile-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1292,7 +1292,7 @@ time {
 }
 .infomatrics__payment__btn::after
 {
-	content: url('../assets/img/svgexport-1.svg');
+	content: url('../../public/assets/img/svgexport-1.svg');
 	display: block;
 }
 

@@ -19,10 +19,10 @@ const PastEvents = () => {
                             <p className="event-description">Хакатон iQanat на базе IT BIL Burabay:</p> 
                             <p className="event-description video-pointer">&#8595; &#8595; &#8595;</p>
                             <button id="myBtn1" className="myBtn" href="">
-                                <img width="195px" height="127px" className="img-hackathon img-hackathon1" src="/textures/action.png" alt="" />
+                                <img width="195px" height="127px" className="img-hackathon img-hackathon1" src="../assets/img/action.png" alt="" />
                             </button>
                             <a className="video-link" href="https://www.youtube.com/watch?v=OMBDXNNItr4">
-                                <img className="img-hackathon" src="/textures/action.png" alt="" />
+                                <img className="img-hackathon" src="../assets/img/action.png" alt="" />
                             </a>
                         </div>
                     </li>
@@ -32,10 +32,10 @@ const PastEvents = () => {
                             <p className="event-description">IQanat хакатон по программе Intensive program в Шымкенте:</p>
                             <p className="event-description video-pointer">&#8595; &#8595; &#8595;</p>
                             <button className="myBtn" id="myBtn" href="">
-                                <img className="img-hackathon rotated" src="/textures/hackathon-pic1.png" alt="" />
+                                <img className="img-hackathon rotated" src="../assets/img/hackathon-pic1.png" alt="hackathon-1" />
                             </button>
                             <a className="video-link" href="https://www.youtube.com/watch?v=OMBDXNNItr4">
-                                <img className="img-hackathon rotated" src="/textures/hackathon-pic1.png" alt="" />    
+                                <img className="img-hackathon rotated" src="../assets/img/hackathon-pic1.png" alt="hackathon-1" />    
                             </a>
                         </div>
                     </li>

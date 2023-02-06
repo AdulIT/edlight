@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const About = () => {
     return (
@@ -7,7 +7,7 @@ const About = () => {
                 <h1 className="main-title about-title">О нас</h1>
                 <div className="about-section-content">
                     <div className="about-section-highlights-div">
-                        <img  alt="" className="highlights-photo" src="../img/about-photo.png" />
+                        <img alt="" className="highlights-photo" src="../assets/img/about-photo.png" />
                     </div>
                     <div className="about-section-info">
                         <p className="about-description first-description">
@@ -26,7 +26,7 @@ const About = () => {
                 </div>
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default About;
+export default About

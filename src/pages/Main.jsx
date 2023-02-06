@@ -14,7 +14,7 @@ const Main = () => {
                 <Hero />
                 <About />
                 <Services />
-                <div className="divider div-transparent div-arrow-down"></div>
+                    <div className="divider div-transparent div-arrow-down"></div>
                 <PastEvents />
                 <Team />
             </main>

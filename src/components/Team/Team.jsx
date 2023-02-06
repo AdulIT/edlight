@@ -15,7 +15,7 @@ const Team = () => {
                 <ul className="team-list">
                     <li className="team-list-item">
                         <div className="trainer-avatar">
-                            <img className="team-list-item-avatar" src="/textures/trainer-photo.png" alt=""/>
+                            <img className="team-list-item-avatar" src="../assets/img/trainer-photo.png" alt=""/>
                             <div className="trainer-avatar-content">
                                 <div className="trainer-avatar-text">
                                     <h4 className="team-list-item-name">Akhyn Zhaksylyk</h4>
@@ -29,7 +29,7 @@ const Team = () => {
                     
                     <li className="team-list-item">
                         <div className="trainer-avatar">
-                            <img className="team-list-item-avatar" src="/textures/trainer-photo-5.png" alt=""/>
+                            <img className="team-list-item-avatar" src="../assets/img/trainer-photo-5.png" alt=""/>
                             <div className="trainer-avatar-content">
                                 <div className="trainer-avatar-text">
                                     <h4 className="team-list-item-name">Zholgeldiev Zhanbolat</h4>
@@ -42,7 +42,7 @@ const Team = () => {
                     </li>
                     <li className="team-list-item">
                         <div className="trainer-avatar">
-                            <img className="team-list-item-avatar" src="/textures/trainer-photo.png" alt=""/>
+                            <img className="team-list-item-avatar" src="../assets/img/trainer-photo.png" alt=""/>
                             <div className="trainer-avatar-content">
                                 <div className="trainer-avatar-text">
                                     <h4 className="team-list-item-name">Kulboldin Daniyar</h4>
@@ -54,7 +54,7 @@ const Team = () => {
                     </li>
                     <li className="team-list-item">
                         <div className="trainer-avatar">
-                            <img className="team-list-item-avatar" src="/textures/trainer-photo-2.png" alt=""/>
+                            <img className="team-list-item-avatar" src="../assets/img/trainer-photo-2.png" alt=""/>
                             <div className="trainer-avatar-content">
                                 <div className="trainer-avatar-text">
                                     <h4 className="team-list-item-name">Maksat Tulegenov</h4>
@@ -66,7 +66,7 @@ const Team = () => {
                     </li>
                     <li className="team-list-item">
                         <div className="trainer-avatar">
-                            <img className="team-list-item-avatar" src="/textures/trainer-photo-2.png" alt=""/>
+                            <img className="team-list-item-avatar" src="../assets/img/trainer-photo-2.png" alt=""/>
                             <div className="trainer-avatar-content">
                                 <div className="trainer-avatar-text">
                                     <h4 className="team-list-item-name">Sakimov Ilyas</h4>
@@ -78,7 +78,7 @@ const Team = () => {
                     </li>
                     <li className="team-list-item">
                         <div className="trainer-avatar">
-                            <img className="team-list-item-avatar" src="/textures/trainer-photo.png" alt=""/>
+                            <img className="team-list-item-avatar" src="../assets/img/trainer-photo.png" alt=""/>
                             <div className="trainer-avatar-content">
                                 <div className="trainer-avatar-text">
                                     <h4 className="team-list-item-name">Myrzatov Murat</h4>
@@ -91,22 +91,22 @@ const Team = () => {
                 </ul>
                 <ul className="team-list-mobile">
                     <li className="mobile-team-list-item">
-                        <img className="team-list-item-avatar-mobile" src="/textures/trainer-photo.png" alt=""/>
+                        <img className="team-list-item-avatar-mobile" src="../assets/img/trainer-photo.png" alt=""/>
                         <h4 className="team-list-item-name-mobile">Алмаз Алихан</h4>
                         <h5 className="team-list-item-field-mobile">Ардуино тренер</h5>
                     </li>
                     <li className="mobile-team-list-item">
-                        <img className="team-list-item-avatar-mobile" src="/textures/trainer-photo-2.png" alt=""/>
+                        <img className="team-list-item-avatar-mobile" src="../assets/img/trainer-photo-2.png" alt=""/>
                         <h4 className="team-list-item-name-mobile">Оспан Жангир</h4>
                         <h5 className="team-list-item-field-mobile">Чат-бот trainer</h5>
                     </li>
                     <li className="mobile-team-list-item">
-                        <img className="team-list-item-avatar-mobile" src="/textures/trainer-photo-5.png" alt=""/>
+                        <img className="team-list-item-avatar-mobile" src="../assets/img/trainer-photo-5.png" alt=""/>
                         <h4 className="team-list-item-name-mobile">Akhyn Zhaksylyk</h4>
                         <h5 className="team-list-item-field-mobile">Arduino trainer</h5>
                     </li>
                     <li className="mobile-team-list-item">
-                        <img className="team-list-item-avatar-mobile" src="/textures/trainer-photo.png" alt=""/>
+                        <img className="team-list-item-avatar-mobile" src="../assets/img/trainer-photo.png" alt=""/>
                         <h4 className="team-list-item-name-mobile">Akhyn Zhaksylyk</h4>
                         <h5 className="team-list-item-field-mobile">Arduino trainer</h5>
                     </li>

@@ -8,7 +8,7 @@ const Header = () => {
             <div className="container">
                 <div className="menu-overlay">
                     <Link to="/main">
-                        <img className="logo" src="./assets/img/logo.png" alt="logo" />
+                        <img className="logo" src="../assets/img/logo.png" alt="logo" />
                     </Link>
                     <Navbar />
                     <button className="video-button" id="promoButton"></button>

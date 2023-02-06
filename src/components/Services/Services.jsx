@@ -6,9 +6,9 @@ const Services = () => {
             <div className="services-container">
                 <h1 className="main-title services-title">Сервисы</h1>
                 <div className="services-section-subtitle">
-                    <img src="/textures/services-flag.png" alt="" />
+                    <img src="../assets/img/services-flag.png" alt="" />
                     <h4 className="services-section-subtitle-text">Области в которых мы обучаем</h4>
-                    <img src="/textures/services-flag.png" alt="" />
+                    <img src="../assets/img/services-flag.png" alt="" />
                 </div>     
                 <ul className="services-list">
                     <li className="services-list-item Arduino services-list-item--closed">
@@ -59,8 +59,8 @@ const Services = () => {
                         <h2 className="projects">Галерея:</h2>
                         <div className="img-roll">
                             <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8&w=1000&q=80" alt="" className="img-roll-img" />
-                            <img src="/textures/action6.png" alt="" className="img-roll-img" />
-                            <img src="/textures/action5.png" alt="" className="img-roll-img" />
+                            <img src="../assets/img/action6.png" alt="" className="img-roll-img" />
+                            <img src="../assets/img/action5.png" alt="" className="img-roll-img" />
                         </div>
                     </div>
                     <li className="services-list-item MobileDev">
@@ -90,8 +90,8 @@ const Services = () => {
                         <h2 className="projects">Галерея:</h2>
                         <div className="img-roll">
                             <img src="https://www.journalofaccountancy.com/content/jofa-home/issues/2020/jul/create-a-data-entry-form-in-excel/_jcr_content/contentSectionArticlePage/article/articleparsys/image_1332570033.img.jpg/1593465830140.jpg" alt="" className="img-roll-img" />
-                            <img src="/textures/action8.png" alt="" className="img-roll-img" />
-                            <img src="/textures/action3.png" alt="" className="img-roll-img" />
+                            <img src="../assets/img/action8.png" alt="" className="img-roll-img" />
+                            <img src="../assets/img/action3.png" alt="" className="img-roll-img" />
                         </div>
                     </div>
                 </ul>
