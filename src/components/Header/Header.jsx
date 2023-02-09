@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../UI/Navbar/Navbar'
 import { useLocation } from 'react-router-dom'
@@ -7,6 +7,54 @@ import { useLocation } from 'react-router-dom'
 const Header = () => {
 
     const location = useLocation()
+    const refModal = useRef(null)
+    const refBtn = useRef(null)
+    const refClose = useRef(null)
+
+    useEffect(() =>
+    {
+        const modalWindows = document.querySelectorAll('.modal')
+
+        window.addEventListener('click', (e) =>
+        {
+            modalWindows.forEach(modal =>
+            {
+                if (e.target === modal)
+                {
+                    modal.style.display = 'none'
+                }
+                let iframes = document.querySelectorAll('iframe')
+                iframes.forEach(iframe =>
+                {
+                    if (iframe)
+                    {
+                        let iframeSrc = iframe.src
+                        iframe.src =  iframeSrc
+                    }
+                })
+            })
+        })
+    }, [])
+
+    const playButton = () =>
+    {
+        refModal.current.style.display = 'flex'
+    }
+
+    const closeModal = () =>
+    {
+        refModal.current.style.display = 'none'
+
+        let iframes = document.querySelectorAll('iframe')
+        iframes.forEach(iframe =>
+        {
+            if (iframe)
+            {
+                let iframeSrc = iframe.src
+                iframe.src =  iframeSrc
+            }
+        })
+    }
     
     return (
         <header className={(location.pathname === '/infomatrics') ? 'header-white' : 'header'}>
@@ -16,7 +64,13 @@ const Header = () => {
                         <img className="logo" src="../assets/img/logo.png" alt="logo" />
                     </Link>
                     <Navbar />
-                    <button className="video-button" id="promoButton"></button>
+                    <button
+                        className="video-button"
+                        id="promoButton"
+                        ref={refBtn}
+                        onClick={playButton}
+                    >
+                    </button>
                     <input className="checkbox" type="checkbox" name="" id="" />
                     <div className="hamburger-lines">
                         <span className="linee line1"></span>
@@ -31,9 +85,15 @@ const Header = () => {
                         <li className="menu-item"><Link to="/infomatrics">Infomatrics</Link></li>
                     </nav>
 
-                    <div className="modal" id="promoModal">
-                        <span className="close">&times;</span>
-                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/kpW9JcWxKq0" title="What is the Fourth Industrial Revolution?" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <div className="modal" id="promoModal" ref={refModal}>
+                        <span
+                            className="close"
+                            ref={refClose}
+                            onClick={closeModal}
+                        >
+                            &times;
+                        </span>
+                        <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/kpW9JcWxKq0" title="What is the Fourth Industrial Revolution?" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>
