@@ -1,6 +1,29 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const Services = () => {
+    // const accordionBtn = useRef(null)
+
+    // const accordionToggle = () =>
+    // {
+    //     const accordionCurrent = accordionBtn.current
+    //     console.log(accordionBtn.current);
+
+    //     const accordionContent = accordionCurrent.parentElement.nextElementSibling;
+    //     accordionCurrent.classList.toggle("accordion__button--active");
+    //     const servicesContent = accordionCurrent.parentElement;
+        
+    //     if(accordionCurrent.classList.contains("accordion__button--active")){
+    //         accordionContent.style.maxHeight = accordionContent.scrollHeight +  "px";
+    //         servicesContent.classList.add("services-list-item--active");
+    //         servicesContent.classList.remove("services-list-item--closed");
+    //     }
+    //     else{
+    //         accordionContent.style.maxHeight = 0;
+    //         servicesContent.classList.remove("services-list-item--active");
+    //         servicesContent.classList.add("services-list-item--closed");
+    //     }
+    // }
+
     return (
         <section className="services-section section" id="services-section-id">
             <div className="services-container">
@@ -13,7 +36,13 @@ const Services = () => {
                 <ul className="services-list">
                     <li className="services-list-item Arduino services-list-item--closed">
                         <h1 className="services-list-heading">Ардуино</h1>
-                        <button className="accordion__button services-explore-button">узнать</button>
+                        <button
+                            className="accordion__button services-explore-button"
+                            // ref={accordionBtn}
+                            // onClick={accordionToggle}
+                        >
+                            узнать
+                        </button>
                         
                     </li>
                     <div className="accordion__content">
@@ -30,7 +59,13 @@ const Services = () => {
                     </div>
                     <li className="services-list-item VR">
                         <h1 className="services-list-heading">Виртульная Реальность</h1>
-                        <button className="accordion__button services-explore-button">узнать</button>
+                        <button
+                            className="accordion__button services-explore-button"
+                            // ref={accordionBtn}
+                            // onClick={accordionToggle}
+                        >
+                            узнать
+                        </button>
                     </li>
                     <div className="accordion__content">
                         <h1 className="main-title accordion-title">Что такое Виртуальная Реальность?</h1>
@@ -47,7 +82,13 @@ const Services = () => {
                     </div>
                     <li className="services-list-item Chatbot">
                         <h1 className="services-list-heading">Чат-бот</h1>
-                        <button className="accordion__button services-explore-button">узнать</button>
+                        <button
+                            className="accordion__button services-explore-button"
+                            // ref={accordionBtn}
+                            // onClick={accordionToggle}
+                        >
+                            узнать
+                        </button>
                         
                     </li>
                     <div className="accordion__content">
@@ -65,7 +106,13 @@ const Services = () => {
                     </div>
                     <li className="services-list-item MobileDev">
                         <h1 className="services-list-heading">Мобильная Разработка</h1>
-                        <button className="accordion__button services-explore-button">узнать</button>
+                        <button
+                            className="accordion__button services-explore-button"
+                            // ref={accordionBtn}
+                            // onClick={accordionToggle}
+                        >
+                            узнать
+                        </button>
                     </li>
                     <div className="accordion__content">
                         <h1 className="main-title accordion-title">Что такое мобильная разработка?</h1>
@@ -81,7 +128,13 @@ const Services = () => {
                     </div>
                     <li className="services-list-item DataScience">
                         <h1 className="services-list-heading">Дата Сайнс</h1>
-                        <button className="accordion__button services-explore-button">узнать</button>
+                        <button
+                            className="accordion__button services-explore-button"
+                            // ref={accordionBtn}
+                            // onClick={accordionToggle}
+                        >
+                            узнать
+                        </button>
                     </li>
                     <div className="accordion__content">
                         <h1 className="main-title accordion-title">Что такое Дата Сайнс?</h1>

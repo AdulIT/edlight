@@ -3,8 +3,7 @@ import Main from './pages/Main'
 import Infomatrics from './pages/Infomatrics'
 import Error from './pages/Error'
 import './styles/App.css'
-import './components/PlayButton'
-import './components/TimelineAnimation'
+import './components/Accordion'
 
 function App() {
 	return (
