@@ -15,40 +15,41 @@ const ServiceItem = (props) => {
         )
     })
 
-    const [isShowed, setIsShowed] = useState(false)
+    // const [isShowed, setIsShowed] = useState(false)
 
     const toggleButton = () =>
     {
-        if (isShowed)
+        const accordionCurrent = accordionBtn.current
+
+        const accordionContent = accordionCurrent.parentElement.nextElementSibling
+        accordionCurrent.classList.toggle("accordion__button--active")
+        const servicesContent = accordionCurrent.parentElement
+        
+        if (accordionCurrent.classList.contains("accordion__button--active"))
         {
-            setIsShowed(false)
-        } else
-        {
-            setIsShowed(true)
+            accordionContent.style.maxHeight = accordionContent.scrollHeight +  "px"
+            servicesContent.classList.add("services-list-item--active")
+            servicesContent.classList.remove("services-list-item--closed")
         }
-        console.log(isShowed)
+        else
+        {
+            accordionContent.style.maxHeight = 0
+            servicesContent.classList.remove("services-list-item--active")
+            servicesContent.classList.add("services-list-item--closed")
+        }
+        // if (isShowed)
+        // {
+        //     setIsShowed(false)
+        // } else
+        // {
+        //     setIsShowed(true)
+        // }
+        // console.log(isShowed)
     }
 
 
 
-    // const accordionCurrent = accordionBtn.current
 
-    // const accordionContent = accordionCurrent.parentElement.nextElementSibling
-    // accordionCurrent.classList.toggle("accordion__button--active")
-    // const servicesContent = accordionCurrent.parentElement
-    
-    // if (accordionCurrent.classList.contains("accordion__button--active"))
-    // {
-    //     accordionContent.style.maxHeight = accordionContent.scrollHeight +  "px"
-    //     servicesContent.classList.add("services-list-item--active")
-    //     servicesContent.classList.remove("services-list-item--closed")
-    // }
-    // else
-    // {
-    //     accordionContent.style.maxHeight = 0
-    //     servicesContent.classList.remove("services-list-item--active")
-    //     servicesContent.classList.add("services-list-item--closed")
-    // }
 
     return (
         <>
