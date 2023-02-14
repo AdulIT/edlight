@@ -60,7 +60,7 @@ const Header = () => {
         <header className={(location.pathname === '/infomatrics') ? 'header-white' : 'header'}>
             <div className="container">
                 <div className="menu-overlay">
-                    <Link to="/main">
+                    <Link to="/">
                         <img className="logo" src="../assets/img/logo.png" alt="logo" />
                     </Link>
                     <Navbar />

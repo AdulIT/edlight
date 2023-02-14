@@ -825,7 +825,6 @@ a {
 }
 
 .VR {
-	background-image: url('../../public/assets/img/Vr-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed !important;
@@ -834,7 +833,6 @@ a {
 }
 
 .Arduino {
-	background-image: url('../../public/assets/img/Arduino-bg.png') !important;
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed !important;
@@ -843,7 +841,6 @@ a {
 }
 
 .Chatbot {
-	background-image: url('../../public/assets/img/chatbot-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -852,7 +849,6 @@ a {
 }
 
 .DataScience {
-	background-image: url('../../public/assets/img/Datascience-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -863,7 +859,6 @@ a {
 }
 
 .MobileDev {
-	background-image: url('../../public/assets/img/Mobile-bg.png');
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
