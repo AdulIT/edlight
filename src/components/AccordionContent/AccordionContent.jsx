@@ -20,19 +20,19 @@ const AccordionContent = (props) => {
 
     return (
         <>
-            <div className="accordion__content">
-                <h1 className="main-title accordion-title">{ props.title }</h1>
+            {/* <div className="accordion__content"> */}
+                <h1 className="main-title accordion-title">{ props.accordionContent.title }</h1>
                 {/* <p className="accordion-content-text"> */}
                     { accordionTexts }
                 {/* </p> */}
-                <h2 className="projects"> { props.projectsTitle } </h2>
+                <h2 className="projects"> { props.accordionContent.projectsTitle } </h2>
                 <div className="img-roll">
                     { accordionImages }
                     {/* <img src="" alt="" className="img-roll-img" /> */}
                     {/* <img src="" alt="" className="img-roll-img" />
                     <img src="" alt="" className="img-roll-img" /> */}
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }

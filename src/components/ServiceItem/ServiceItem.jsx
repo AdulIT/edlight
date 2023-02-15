@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useRef } from 'react'
 import accordionContentData from '../../data/accordionContentData';
 import AccordionContent from '../AccordionContent/AccordionContent';
 
@@ -15,7 +15,6 @@ const ServiceItem = (props) => {
         )
     })
 
-    // const [isShowed, setIsShowed] = useState(false)
 
     const toggleButton = () =>
     {
@@ -37,14 +36,6 @@ const ServiceItem = (props) => {
             servicesContent.classList.remove("services-list-item--active")
             servicesContent.classList.add("services-list-item--closed")
         }
-        // if (isShowed)
-        // {
-        //     setIsShowed(false)
-        // } else
-        // {
-        //     setIsShowed(true)
-        // }
-        // console.log(isShowed)
     }
 
 
@@ -66,7 +57,9 @@ const ServiceItem = (props) => {
                     узнать
                 </button>
             </li>
-            { accordionContents }
+            <div className="accordion__content">
+                { accordionContents }
+            </div>
         </>
     );
 
