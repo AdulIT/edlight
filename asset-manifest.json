@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34c392a2.css",
+    "main.js": "/static/js/main.9c285a0d.js",
+    "static/media/Arduino-bg.png": "/static/media/Arduino-bg.49449b7d483bc2ed39de.png",
+    "static/media/Ubuntu-Italic.ttf": "/static/media/Ubuntu-Italic.fbb3310412795b02afc4.ttf",
+    "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/GraphikMedium.otf": "/static/media/GraphikMedium.f58d53eb72d7239d4ca8.otf",
+    "static/media/GraphikRegular.otf": "/static/media/GraphikRegular.329746577f94a4f1785e.otf",
+    "static/media/svgexport-1.svg": "/static/media/svgexport-1.6e1aaa8d5b9946f9a6fc.svg",
+    "index.html": "/index.html",
+    "main.34c392a2.css.map": "/static/css/main.34c392a2.css.map",
+    "main.9c285a0d.js.map": "/static/js/main.9c285a0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c392a2.css",
+    "static/js/main.9c285a0d.js"
+  ]
+}
