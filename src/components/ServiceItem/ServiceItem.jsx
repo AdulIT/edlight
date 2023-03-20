@@ -10,11 +10,13 @@ const ServiceItem = (props) => {
         return (
             <AccordionContent
                 key={i}
-                accordionContent={accordionContent}
+                title={accordionContent.title}
+                texts={accordionContent.texts}
+                projectsTitle={accordionContent.projectsTitle}
+                images={accordionContent.images}
             />
         )
-    })
-
+    })    
 
     const toggleButton = () =>
     {
@@ -38,10 +40,6 @@ const ServiceItem = (props) => {
         }
     }
 
-
-
-
-
     return (
         <>
             <li
@@ -62,9 +60,6 @@ const ServiceItem = (props) => {
             </div>
         </>
     );
-
-
-
 };
 
 export default ServiceItem;
